@@ -1,0 +1,606 @@
+
+/*--------mobile version------------------------------------*/
+.container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+/*outline: 2px solid red;*/
+    }
+/*.cont-column {
+    max-width: 335px;
+    padding-right: 0;
+    padding-left: 0;
+}*/
+
+
+.container-vegetables {
+position: relative;
+    padding-top: 80px;
+    background-color: #ffffff;
+    padding-bottom: 80px;
+
+}
+
+.title-order {
+    text-align: left;
+    max-width: 335px;
+
+    width: 100%;
+    height: 100%;
+    color: #141414;
+    
+    font-family: inherit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.order-brokkoly {
+    max-width: 335px;
+    width: 100%;
+    display: block;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+.order-list {
+
+    width: 100%;
+    margin: auto;
+
+
+}
+
+.order-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.order-text {
+
+    color: #141414;
+    
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+}
+
+.steps-container {
+
+
+    background-image:
+
+        url(/img/png/backimg-mob.png);
+    max-width: 335px;
+    margin: auto;
+    border-radius: 40px;
+    background-color: #FAF3E7;
+}
+
+.steps-title {
+    /*display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;*/
+
+
+    max-width: 308px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #141414;
+    
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.steps-list {
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+
+.steps-item::before {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    content: counter(my-counter);
+    counter-increment: my-counter;
+    color: #141414;
+    border-radius: 50%;
+    background-color: #A1C487;
+    min-width: 46px;
+    height: 44px;
+    color: #141414;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.steps-item {
+    display: flex;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 275px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.steps-img {
+    max-width: 258px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 375px) {
+        .container {
+        max-width: 335px;
+        padding-right: 0;
+        padding-left: 0;
+        }
+             
+
+    .container-vegetables {
+
+        padding-top: 80px;
+        background-color: #ffffff;
+        padding-bottom: 80px;
+
+    }
+
+    .title-order {
+        text-align: left;
+        max-width: 335px;
+
+        width: 100%;
+        height: 100%;
+        color: #141414;
+        
+        font-family: inherit;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .order-brokkoly {
+        max-width: 335px;
+        width: 100%;
+        display: block;
+
+        margin: auto;
+
+        margin-bottom: 20px;
+    }
+
+    .order-list {
+        
+        width: 100%;
+        margin: auto;
+
+
+    }
+
+    .order-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .order-text {
+
+        color: #141414;
+        
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.04em;
+    }
+    .steps-container {
+
+
+        background-image:
+                  
+        url(/img/png/backimg-mob.png);
+        max-width: 335px;
+        margin: auto;
+        border-radius: 40px;
+        background-color: #FAF3E7;
+     }
+
+.steps-revers {
+    margin-bottom: 20px;
+}
+
+    .steps-title {
+        /*display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;*/
+
+
+        max-width: 308px;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        color: #141414;
+        
+        font-family: inherit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        padding-top: 40px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+.steps-list {
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+
+.steps-item::before {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     content: counter(my-counter);
+     counter-increment: my-counter;
+     color: #141414;
+     border-radius: 50%;
+     background-color: #A1C487;
+     min-width: 46px;
+     height: 44px;
+     color: #141414;
+     font-family: inherit;
+     font-size: 18px;
+     font-weight: 400;
+}
+
+.steps-item {
+    display: flex;
+}
+
+    .steps-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /*max-width: 275px;*/
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+
+.steps-text {
+    
+    padding-left: 14px;
+}
+
+    .steps-img {
+        max-width: 258px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+    }
+
+
+}
+
+
+/*----------tablet adaptive----------------------------------*/
+
+
+@media screen and (min-width: 768px) {
+       .container {
+        max-width: 704px;
+        
+    }
+
+
+.cont-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+    .container-vegetables {
+        margin: auto;
+        padding-bottom: 100px;
+        padding-top: 100px;
+
+    }
+
+    .order-firstblock {
+        display: flex;
+        gap: 8px;
+        /*padding-top: 100px;*/
+        padding-bottom: 40px;
+        margin: auto;
+    }
+
+    .title-order {
+
+        max-width: 386px;
+        width: 100%;
+        height: 100%;
+
+        color: #141414;
+       
+        font-family: inherit;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+    }
+
+    .order-brokkoly {
+        max-width: 310px;
+        width: 100%;
+        max-height: 176px;
+        height: 100%;
+        display: block;
+        border-radius: 100px;
+    }
+
+    .order-list {
+        display: flex;
+        gap: 20px;
+        margin: auto;
+        
+    }
+
+    .item {
+        max-width: 317px;
+
+    }
+
+    .second-item {
+        max-width: 279px;
+    }
+
+    .order-text {
+        color: #141414;
+        
+        font-family: inherit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.04em;
+    }
+
+    .steps-container {
+max-width: 704px;
+background-image: url(/img/png/backimg-tab.png);
+        margin: auto;
+        justify-content: center;
+        border-radius: 80px;
+        background-color: #FAF3E7;
+        display: flex;
+        flex-direction: row-reverse;
+        }
+
+.steps-revers {
+    display: flex;
+    flex-direction: column;
+}
+
+    .steps-img {
+        max-width: 350px;
+        width: 100%;
+        height: 100%;
+        padding-top: 78px;
+        margin-right: 40px;
+    }
+
+    .steps-title {
+        padding-top: 60px;
+        /*max-width: 274px;*/
+        width: 100%;
+        color: #141414;
+        
+        font-family: inherit;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        margin-bottom: 33px;
+    }
+
+.steps-list {
+    max-width: 275px;
+width: 100%;
+/*padding-left: 39px;
+padding-right: 40px;*/
+}
+
+
+
+.steps-item 
+
+
+
+
+.steps-text {
+    color: #141414;
+
+font-family: inherit;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.04em;
+}
+
+
+}
+
+/*----------descktop version-----------------------------------*/
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1216px;
+        
+    }
+    
+
+.cont-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-vegetables {
+    margin: auto;
+    
+
+}
+
+ .order-firstblock {
+     display: flex;
+     gap: 119px;
+     /*padding-top: 100px;*/
+     padding-bottom: 40px;
+     margin: auto;
+ }
+
+.title-order {
+    color: #141414;
+        
+        font-family: inherit;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        max-width: 614px;
+        width: 100%;
+}
+
+.order-brokkoly {
+    max-width: 410px;
+    width: 100%;
+    height: 100%;
+}
+
+.order-list {
+    display: flex;
+    gap: 40px;
+}
+
+.item {
+  max-width: 353px; 
+  width: 100%; 
+}
+
+.second-item {
+    max-width: 294px;
+    width: 100%;
+}
+
+.order-text {
+    color: #141414;
+        
+        font-family: inherit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.04em;
+}
+
+.steps-container {
+    background-image: url(/img/png/backimg-desck.png);
+   max-width: 1216px;
+   margin: auto;
+justify-content: center;
+border-radius: 80px;
+background-color: #FAF3E7;
+display: flex;
+flex-direction: row-reverse; 
+}
+
+.steps-img {
+    max-width: 434px;
+    margin-right: 110px;
+    
+    padding-top: 30px;
+    
+}
+
+
+.steps-title {
+    max-width: 512PX;
+    width: 100%;
+    color: #141414;
+        
+        font-family: inherit;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        margin-bottom: 44px;
+}
+
+.steps-list {
+    max-width: 349px;
+    width: 100%;
+    padding-left: 39px;
+    margin-right: 243px;
+}
+
+.steps-text {
+  color: #141414;
+
+font-family: inherit;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.04em;  
+}
+
+
+
+
+}

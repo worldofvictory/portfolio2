@@ -1,0 +1,34 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./mobile-menu.css');
+@import url('./hero.css');
+@import url('./order-info.css');
+@import url('./vegetables.css');
+@import url('./callback.css');
+@import url('./modal.css');
+@import url('./footer.css');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  --primary-text-color: #141414;
+  --alt-text-color: #fff;
+  --primary-background: #F3F3F3;
+  --secondary-backround: #EAF7E5;
+  --hero-background: #A1C487;
+  --orange-color: #FC8A11;
+  --transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;}

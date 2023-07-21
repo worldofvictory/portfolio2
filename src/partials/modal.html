@@ -1,0 +1,187 @@
+<div class="backdrop is-hidden" data-modal="order">
+  <div class="modal">
+    <button type="button" class="modal-close-button" data-modal-close>
+      <svg
+        class="close-button"
+        aria-label="close-button"
+        width="32"
+        height="32"
+      >
+        <use href="/img/svg/symbol-defs.svg#icon-x"></use>
+      </svg>
+    </button>
+    <h2 class="order-form-modalname">YOUR ORDER</h2>
+    <form class="modal-order-form">
+      <ul class="list modal-order-container">
+        <li class="modal-plant-container">
+          <div class="order-form-checkbox-wrapper">
+            <input
+              class="modal-order-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-order1"
+              name="user-order1"
+              value="true"
+              required
+            />
+            <label class="order-form-checkbox" for="user-order1">
+              <span class="own-checkbox">
+                <svg
+                  class="order-form-own-checkbox"
+                  aria-label="icon-mark"
+                  width="20"
+                  height="20"
+                >
+                  <use
+                    class="contact-form-checkmark"
+                    href="/img/svg/symbol-defs.svg#icon-checkmark "
+                  ></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <div class="modal-title">
+            <h3 class="modal-title-plant">Cabbage Bascet</h3>
+            <p class="modal-p-title">Plant</p>
+          </div>
+          <div class="modal-img-container">
+            <img src="./img/png/cabbage-modal.png" alt="cabbage" />
+          </div>
+        </li>
+        <li class="modal-plant-container">
+          <div class="order-form-checkbox-wrapper">
+            <input
+              class="modal-order-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-order2"
+              name="user-order2"
+              value="true"
+              required
+            />
+            <label class="order-form-checkbox" for="user-order2">
+              <span class="own-checkbox">
+                <svg
+                  class="order-form-own-checkbox"
+                  aria-label="icon-checkmark"
+                  width="20"
+                  height="20"
+                >
+                  <use
+                    class="contact-form-checkmark"
+                    href="./img/svg/symbol-defs.svg#icon-checkmark "
+                  ></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <div class="modal-title">
+            <h3 class="modal-title-plant">Tomato Bascet</h3>
+            <p class="modal-p-title">Plant</p>
+          </div>
+          <div class="modal-img-container">
+            <img
+              src="./img/png/tomato-modal.png"
+              class="modal-img"
+              alt="tomato"
+            />
+          </div>
+        </li>
+        <li class="modal-plant-container">
+          <div class="order-form-checkbox-wrapper">
+            <input
+              class="modal-order-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-order3"
+              name="user-order3"
+              value="true"
+              required
+            />
+            <label class="order-form-checkbox" for="user-order3">
+              <span class="own-checkbox">
+                <svg
+                  class="order-form-own-checkbox"
+                  aria-label="icon-mark"
+                  width="20"
+                  height="20"
+                >
+                  <use
+                    class="contact-form-checkmark"
+                    href="./img/svg/symbol-defs.svg#icon-checkmark"
+                  ></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <div class="modal-title">
+            <h3 class="modal-title-plant">Vegetables Bascet</h3>
+            <p class="modal-p-title">Plant</p>
+          </div>
+          <div class="modal-img-container">
+            <img
+              src="./img/png/vegetables-modal.png"
+              class="modal-img"
+              alt="vegetables"
+            />
+          </div>
+        </li>
+      </ul>
+      <div class="contact-form-input-wrapper">
+        <input
+          class="contact-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          required
+          pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄ']+"
+          placeholder="Enter full name..."
+        />
+        <input
+          class="contact-form-input"
+          type="text"
+          name="user-email"
+          id="user-email"
+          required
+          placeholder="Enter email..."
+        />
+        <input
+          class="contact-form-input"
+          type="text"
+          name="user-card"
+          id="user-card"
+          required
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}+"
+          title="xxx-xxx-xxxx-xxxx"
+          placeholder="Enter card..."
+        />
+        <textarea
+          class="contact-form-message"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Enter comments..."
+        ></textarea>
+        <div class="modal-btn">
+          <button type="submit" class="submit-btn" data-submit>Submit</button>
+        </div>
+      </div>
+      <div class="img-girl-in-orange">
+        <picture>
+          <source
+            srcset="./img/png/girl-modal.png 1x, ./img/png@2x/modal-girl@2x 2x"
+            media="(min-width: 768px)"
+            type="img/png"
+          />
+          <source
+            srcset="./img/png/girl-modal.png 1x, ./img/png@2x/modal-girl@2x 2x"
+            media="(min-width: 1280px)"
+            type="img/png"
+          />
+          <img
+            src="./img/png/girl-modal.png"
+            alt="girl_in_orange"
+            width="444"
+            height="413"
+          />
+        </picture>
+      </div>
+    </form>
+  </div>
+</div>

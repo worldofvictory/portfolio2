@@ -1,0 +1,54 @@
+<div class="mobil-menu">
+  <!-- Для підключення JS додаємо в хедер data-menu-open на кнопку відкриття і  data-menu-close на кнопку закриття-->
+  <!-- Додаємо is-hidden для JS -->
+  <div class="mob-menu is-hidden" data-menu>
+    <!-- мобільний хедер -->
+
+    <div class="mob-mob-header">
+      <div class="container mob-header-container">
+        <div class="mob-header-header">
+          <div class="mob-nav-header">
+            <a href="./index.html" class="mob-header-logo">
+              <svg class="mob-veggie-button" width="16" height="16">
+                <use href="./img/svg/symbol-defs.svg#icon-logo-olive"></use>
+              </svg>
+            </a>
+
+            <a class="mob-text-header-logo" href="./index.html">VEGGIBOOST</a>
+          </div>
+        </div>
+        <button class="mob-close-button" type="button" data-menu-close>
+          <svg class="mob-close-button-mob" width="24" height="24">
+            <use href="./img/svg/symbol-defs.svg#icon-x"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- <use href="./img/svg/symbol-defs.svg#icon-vector"></use> -->
+
+    <!-- мобільний Хедер -->
+
+    <div class="mobil">
+      <ul class="mob-menu-list list">
+        <li class="mob-menu-item">
+          <a class="mob-menu-link scroll-to" href="#1">How It Works</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-link scroll-to" href="#2">Vegetables</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-link scroll-to" href="#3">Contacts</a>
+        </li>
+        <li class="mob-menu-item">
+          <!-- для переходу на модалку data-modal-open="order" -->
+          <a class="mob-menu-link scroll-to" href="" data-modal-open="order">
+            <svg class="m-menu-basket" width="20" height="20">
+              <use href="./img/svg/symbol-defs.svg#icon-shopping-cart"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

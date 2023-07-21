@@ -1,0 +1,234 @@
+.vegetables-section {
+    padding-top: 80px;
+}
+
+.vegetables-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 335px; */
+    width: 100%;
+    position: relative;
+}
+
+.vegetables-title {
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.96px;
+    margin-bottom: 14px;
+    color: var(--primary-text-color);
+}
+
+.vegetables-text {
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    margin-bottom: 40px;
+    color: var(--primary-text-color);
+}
+
+.vegetables-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vegetables-item {
+    /* gap: 20px; */
+    width: 100%;
+}
+
+.vegetables-item-container {
+    background-color: #eaf7e5;
+    height: 443px;
+    /* max-width: 320px; */
+    border-radius: 20px;
+    position: relative;
+}
+
+.vegetables-item:last-child {
+    display: none;
+}
+
+.vegetables-subtitle {
+    color: var(--primary-text-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.96px;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.vegetables-plant {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.vegetables-img {
+    /* max-width: 100%;
+  height: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vegetabes-shadow{
+    position: absolute;
+    bottom: 60px;
+    transform: translateX(-50%);
+    flex-shrink: 0;
+    fill: #141414;
+    opacity: 0.10000000149011612;
+    filter: blur(13.591408729553223px);}
+
+.vegetables-cash {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-order {
+    display: flex;
+    gap: 4px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--orange-color);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+
+    color: var(--alt-text-color);
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    /* font-family: DM Sans; */
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: -0.035rem;
+    text-transform: uppercase;
+    transform: rotate(-14deg);
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--transition), transform var(--transition);
+}
+
+.btn-order-svg {
+    fill: var(--alt-text-color);
+}
+
+.btn-order:hover {
+    background-color: #a1c487;
+    transform: scale(1.15);
+}
+
+/**-----------------MOBILE----------------*/
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .vegetables-item {
+        max-width: 335px;
+    }
+}
+
+/**-----------------TABLET----------------*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+    }
+
+    .vegetables-item:last-child {
+        display: none;
+    }
+
+    .vegetables-list {
+        gap: 20px;
+    }
+
+    .vegetables-item {
+        max-width: unset;
+        width: calc((100% - 20px) / 2);
+    }
+
+    .vegetabes-shadow {
+        bottom: 80px;}
+
+    .vegetables-item-container {
+        /* max-width: 342px;
+    height: 465px; */
+    }
+
+    .vegetables-container {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vegetables-text {
+        max-width: 562px;
+    }
+
+    .btn-order {
+        width: 114px;
+        height: 114px;
+        font-size: 18px;
+    }
+}
+
+/**-----------------DESKTOP---------------*/
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1216px;
+    }
+
+    .vegetables-item:last-child {
+        display: block;
+    }
+
+    .vegetables-item {
+        max-width: unset;
+        width: calc((100% - 48px) / 3);
+    }
+
+    .vegetables-list {
+        justify-content: center;
+        gap: 24px;
+        column-gap: 24px;
+    }
+
+    .vegetables-text {
+        max-width: 562px;
+    }
+}
